@@ -52,4 +52,9 @@
 
 ### ✍️ Blog Posts :
 <!-- BLOG-POST-LIST:START -->
+- [Classes and Objects in Python](https://dev.to/wekesa360/classes-and-objects-in-python-1mll)
+- [Functions in Python](https://dev.to/wekesa360/functions-in-python-34a)
+- [Python 102: Loops and Conditional statements](https://dev.to/wekesa360/python-102-the-way-to-go-5flb)
+- [Python 101: Beginner&#39;s Guide](https://dev.to/wekesa360/python-101-ultimate-python-guide-3ebg)
 <!-- BLOG-POST-LIST:END -->
+
