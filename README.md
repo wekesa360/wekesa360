@@ -25,15 +25,6 @@
 
 ---
 
-###  👨‍💻  About Me :
-
-- 🔭 I’m currently working on Web Applications
-- 🌱 I’m currently learning System Design
-- 💬 Ask me about developer related questions
-- 📫 How to reach me:  <a href="https://www.linkedin.com/in/wekesa360/">LinkedIn</a>
-- 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: I'm good with the guitar, look for me... I will make a grand performance on the song Pocoloco 🙃
-
 ---
 
 ### 🛠️ Languages and Tools :
