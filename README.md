@@ -52,9 +52,9 @@
 
 ### ✍️ Blog Posts :
 <!-- BLOG-POST-LIST:START -->
-- [Classes and Objects in Python](https://dev.to/wekesa360/classes-and-objects-in-python-1mll)
-- [Functions in Python](https://dev.to/wekesa360/functions-in-python-34a)
-- [Python 102: Loops and Conditional statements](https://dev.to/wekesa360/python-102-the-way-to-go-5flb)
-- [Python 101: Beginner&#39;s Guide](https://dev.to/wekesa360/python-101-ultimate-python-guide-3ebg)
+- [Python Classes and Objects - Get to know how classes and objects work!](https://dev.to/wekesa360/classes-and-objects-in-python-1mll)
+- [Python Functions – How to write, call and the best ways to write a function](https://dev.to/wekesa360/functions-in-python-34a)
+- [What are loops and conditional statements in Python? Understand them better!](https://dev.to/wekesa360/python-102-the-way-to-go-5flb)
+- [Welcome to Python 101! — Lets get started with the basics](https://dev.to/wekesa360/python-101-ultimate-python-guide-3ebg)
 <!-- BLOG-POST-LIST:END -->
 
