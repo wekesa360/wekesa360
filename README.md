@@ -17,19 +17,33 @@ Full-stack engineer in Kenya. I've worked on public-sector and health systems, i
     <td width="50%"><a href="https://clarivue.duckdns.org/"><img src="./assets/project-clarivue.svg" width="100%" alt="Clarivue" /></a></td>
     <td width="50%"><a href="https://elimishacharity.org"><img src="./assets/project-elimisha.svg" width="100%" alt="Elimisha" /></a></td>
   </tr>
+  <tr>
+    <td width="50%"><a href="https://portfolio-7ug.pages.dev/#projects"><img src="./assets/project-cpims.svg" width="100%" alt="CPIMS" /></a></td>
+    <td width="50%"><a href="https://portfolio-7ug.pages.dev/#projects"><img src="./assets/project-pona.svg" width="100%" alt="Pona" /></a></td>
+  </tr>
 </table>
 
-<img src="./assets/section-02.svg" width="100%" alt="02 Stack" />
+<img src="./assets/section-02.svg" width="100%" alt="02 How I work" />
+
+<img src="./assets/principles.svg" width="100%" alt="Build for the worst day · Latency is a feature · Trust is built in · Own the outcome" />
+
+<br /><br />
+
+<img src="./assets/section-03.svg" width="100%" alt="03 Stack" />
 
 <img src="./assets/stack.svg" width="100%" alt="React, TypeScript, Flutter, Dart, Python, Django, Node, Laravel, Postgres, Celery, Hono, Gemini, Cloudflare, AWS, Docker, CI/CD" />
 
 <br /><br />
 
-<img src="./assets/section-03.svg" width="100%" alt="03 Experience" />
+<img src="./assets/section-04.svg" width="100%" alt="04 Experience" />
 
 <img src="./assets/experience.svg" width="100%" alt="Experience" />
 
 <br /><br />
+
+<img src="./assets/section-05.svg" width="100%" alt="05 Get in touch" />
+
+<img src="./assets/contact.svg" width="100%" alt="Tell me what you're building." />
 
 <p align="center">
   <a href="https://portfolio-7ug.pages.dev/"><img src="./assets/btn-portfolio.svg" height="46" alt="Portfolio" /></a>
