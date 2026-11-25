@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="424" viewBox="0 0 1000 424" role="img" aria-label="Experience">
+<title>Experience</title>
+<style>
+  .sans { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .fade { animation: fade .8s cubic-bezier(.22,1,.36,1) both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
+  }
+
+      .halo { animation: pulse 2s ease-in-out infinite; }
+    </style>
+
+<rect x=".5" y=".5" width="999" height="423" rx="16" fill="#0d0d0d" stroke="#232323"/>
+<line x1="36" y1="39" x2="36" y2="359" stroke="#232323" stroke-width="1.5"/>
+
+<g class="fade" style="animation-delay:0.1s">
+<circle cx="36" cy="39" r="9" fill="#FF4D00" opacity=".25" class="halo"/><circle cx="36" cy="39" r="5" fill="#FF4D00"/>
+<text x="68" y="44" class="mono" font-size="12" letter-spacing="1" fill="#FF4D00">MAR 2026 — NOW</text>
+<text x="300" y="44" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Software Engineering Consultant</text>
+<text x="300" y="64" class="sans" font-size="13" fill="#8a8a8a">County Government of Nakuru</text>
+</g>
+<g class="fade" style="animation-delay:0.2s">
+<circle cx="36" cy="103" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="108" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">OCT 2025 — MAR 2026</text>
+<text x="300" y="108" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Full-Stack Software Engineer</text>
+<text x="300" y="128" class="sans" font-size="13" fill="#8a8a8a">GoWriters Publishers · Remote</text>
+</g>
+<g class="fade" style="animation-delay:0.30000000000000004s">
+<circle cx="36" cy="167" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="172" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">AUG 2025</text>
+<text x="300" y="172" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Software Engineering Consultant</text>
+<text x="300" y="192" class="sans" font-size="13" fill="#8a8a8a">Kenya Ministry of Health · KMHFR</text>
+</g>
+<g class="fade" style="animation-delay:0.4s">
+<circle cx="36" cy="231" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="236" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">JUN 2024 — JUL 2025</text>
+<text x="300" y="236" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Software Engineer</text>
+<text x="300" y="256" class="sans" font-size="13" fill="#8a8a8a">Pona</text>
+</g>
+<g class="fade" style="animation-delay:0.5s">
+<circle cx="36" cy="295" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="300" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">JUL 2022 — SEP 2024</text>
+<text x="300" y="300" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Lead Developer, EVIS</text>
+<text x="300" y="320" class="sans" font-size="13" fill="#8a8a8a">Kabarak University · Incubation Center</text>
+</g>
+<g class="fade" style="animation-delay:0.6s">
+<circle cx="36" cy="359" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="364" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">2022 — 2023</text>
+<text x="300" y="364" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Chapter Lead &amp; Core Team Lead</text>
+<text x="300" y="384" class="sans" font-size="13" fill="#8a8a8a">Google Developer Group on Campus, Kabarak</text>
+</g>
+
+</svg>
