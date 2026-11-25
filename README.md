@@ -1,22 +1,40 @@
-<a href="https://portfolio-7ug.pages.dev/"><img src="./assets/header.svg" width="100%" alt="Michael Wekesa" /></a>
+<a href="https://portfolio-7ug.pages.dev/"><img src="./assets/header.svg" width="100%" alt="Michael Wekesa, Software Engineer" /></a>
 
-Hi, I'm Michael. I build web and mobile apps, usually the whole thing, from the database up to the screen.
+Full-stack engineer in Kenya. I've worked on public-sector and health systems, including Kenya's national child protection system (CPIMS), along with products of my own.
 
-A lot of my work has been public-sector and health software in Kenya: the national child protection system (CPIMS), Nakuru County's statistics platform, and a video consultation platform for clinicians. Right now I'm consulting for the County Government of Nakuru.
+<img src="./assets/section-01.svg" width="100%" alt="01 Work" />
 
-### Some things I've built
+<table>
+  <tr>
+    <td width="50%"><a href="https://qura.co.ke"><img src="./assets/project-qura.svg" width="100%" alt="Qura" /></a></td>
+    <td width="50%"><a href="https://pds-landing.pages.dev/"><img src="./assets/project-zaria.svg" width="100%" alt="Zaria" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://ploracs.com"><img src="./assets/project-ploracs.svg" width="100%" alt="Ploracs" /></a></td>
+    <td width="50%"><a href="https://statistics.nakuru.go.ke"><img src="./assets/project-csms.svg" width="100%" alt="Nakuru CSMS" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://clarivue.duckdns.org/"><img src="./assets/project-clarivue.svg" width="100%" alt="Clarivue" /></a></td>
+    <td width="50%"><a href="https://elimishacharity.org"><img src="./assets/project-elimisha.svg" width="100%" alt="Elimisha" /></a></td>
+  </tr>
+</table>
 
-- **[Qura](https://qura.co.ke)**: elections for student bodies, SACCOs and boards. You can vote over USSD if you don't have data. Six student associations at Kabarak have run their elections on it.
-- **[Zaria](https://pds-landing.pages.dev/)**: short skill checks and training programs for teams, with an AI study helper.
-- **[Ploracs](https://ploracs.com)**: a wellness app. Flutter on the phone, Hono on Cloudflare Workers behind it, and it works offline.
-- **[CSMS](https://statistics.nakuru.go.ke)**: collects, checks and publishes Nakuru County's official statistics. Django, PostGIS, React.
-- **CPIMS**: I worked on the Android app that let social workers use the system in the field.
-- **Pona**: a WebRTC media server for doctor–patient video calls, plus the React app around it.
+<img src="./assets/section-02.svg" width="100%" alt="02 Stack" />
 
-### What I use
+<img src="./assets/stack.svg" width="100%" alt="React, TypeScript, Flutter, Dart, Python, Django, Node, Laravel, Postgres, Celery, Hono, Gemini, Cloudflare, AWS, Docker, CI/CD" />
 
-Mostly TypeScript, React and Flutter on the front end, Python/Django or Node on the back end, and Postgres for data. Things run on Cloudflare, AWS or plain Docker, depending on the job.
+<br /><br />
 
-### Contact
+<img src="./assets/section-03.svg" width="100%" alt="03 Experience" />
 
-[Portfolio](https://portfolio-7ug.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/wekesa360) · [Resume](https://portfolio-7ug.pages.dev/Michael_Wekesa_Resume.pdf)
+<img src="./assets/experience.svg" width="100%" alt="Experience" />
+
+<br /><br />
+
+<p align="center">
+  <a href="https://portfolio-7ug.pages.dev/"><img src="./assets/btn-portfolio.svg" height="46" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/wekesa360"><img src="./assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://portfolio-7ug.pages.dev/Michael_Wekesa_Resume.pdf"><img src="./assets/btn-resume.svg" height="46" alt="Resume" /></a>
+</p>

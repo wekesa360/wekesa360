@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="324" viewBox="0 0 1000 324" role="img" aria-label="Experience">
+<title>Experience</title>
+<style>
+  .sans { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .fade { animation: fade .8s cubic-bezier(.22,1,.36,1) both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect x=".5" y=".5" width="999" height="323" rx="16" fill="#0d0d0d" stroke="#232323"/>
+<line x1="36" y1="39" x2="36" y2="271" stroke="#232323" stroke-width="1.5"/>
+
+<g class="fade" style="animation-delay:0.1s">
+<circle cx="36" cy="39" r="10" fill="#FF4D00" opacity=".22"/><circle cx="36" cy="39" r="5" fill="#FF4D00"/>
+<text x="68" y="44" class="mono" font-size="12" letter-spacing="1" fill="#FF4D00">2026 —</text>
+<text x="200" y="44" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Consultant</text>
+<text x="968" y="44" text-anchor="end" class="sans" font-size="14" fill="#8a8a8a">County Government of Nakuru</text>
+</g>
+<g class="fade" style="animation-delay:0.2s">
+<circle cx="36" cy="97" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="102" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">2025 — 26</text>
+<text x="200" y="102" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Full-Stack Engineer</text>
+<text x="968" y="102" text-anchor="end" class="sans" font-size="14" fill="#8a8a8a">GoWriters Publishers</text>
+</g>
+<g class="fade" style="animation-delay:0.30000000000000004s">
+<circle cx="36" cy="155" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="160" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">2025</text>
+<text x="200" y="160" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Consultant</text>
+<text x="968" y="160" text-anchor="end" class="sans" font-size="14" fill="#8a8a8a">Ministry of Health · KMHFR</text>
+</g>
+<g class="fade" style="animation-delay:0.4s">
+<circle cx="36" cy="213" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="218" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">2024 — 25</text>
+<text x="200" y="218" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Software Engineer</text>
+<text x="968" y="218" text-anchor="end" class="sans" font-size="14" fill="#8a8a8a">Pona</text>
+</g>
+<g class="fade" style="animation-delay:0.5s">
+<circle cx="36" cy="271" r="5" fill="#0d0d0d" stroke="#FF4D00" stroke-width="1.5"/>
+<text x="68" y="276" class="mono" font-size="12" letter-spacing="1" fill="#5c5c5c">2022 — 24</text>
+<text x="200" y="276" class="sans" font-size="17" font-weight="700" fill="#f5f5f5">Lead Developer, EVIS</text>
+<text x="968" y="276" text-anchor="end" class="sans" font-size="14" fill="#8a8a8a">Kabarak University</text>
+</g>
+
+</svg>

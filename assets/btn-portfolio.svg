@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="46" viewBox="0 0 164 46" role="img" aria-label="Portfolio">
+<title>Portfolio</title>
+<style>
+  .sans { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .fade { animation: fade .8s cubic-bezier(.22,1,.36,1) both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect x=".75" y=".75" width="162.5" height="44.5" rx="10" fill="#FF4D00" stroke="#FF4D00" stroke-width="1.5"/>
+<rect x="22" y="16" width="14" height="14" rx="2" fill="#0d0d0d"/>
+<text x="50" y="28.5" class="sans" font-size="15" font-weight="600" fill="#0d0d0d">Portfolio</text>
+
+</svg>
