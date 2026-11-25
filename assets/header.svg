@@ -1,38 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-label="Michael Wekesa — Software Engineer. Systems Built to Last.">
-<title>Michael Wekesa — Software Engineer. Systems Built to Last.</title>
-<style>
-  .sans { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
-  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
-  .fade { animation: fade .8s cubic-bezier(.22,1,.36,1) both; }
-  @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
-  @media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; }
-  }
-
-      .trace { stroke-dasharray: 2200; stroke-dashoffset: 2200; animation: draw 3s ease-out .6s forwards; }
-      @keyframes draw { to { stroke-dashoffset: 0; } }
-      .dot { animation: pulse 2s ease-in-out infinite; }
-      .caret { animation: pulse 1s steps(1) infinite; }
-    </style>
-
-<defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#161616" stroke-width="1"/></pattern></defs>
-<rect width="1000" height="380" rx="18" fill="#0d0d0d"/>
-<rect width="1000" height="380" rx="18" fill="url(#g)"/>
-<rect x=".5" y=".5" width="999" height="379" rx="18" fill="none" stroke="#232323"/>
-
-<rect x="64" y="44" width="18" height="18" rx="2" fill="#FF4D00"/>
-<text x="94" y="58" class="mono" font-size="13" fill="#8a8a8a">wekesa360</text>
-<circle cx="810" cy="53" r="4" fill="#FF4D00" class="dot"/>
-<text x="822" y="58" class="mono" font-size="12" fill="#8a8a8a">available · Kenya</text>
-
-<text x="64" y="150" class="sans fade" style="animation-delay:.1s" font-size="64" font-weight="800" letter-spacing="-2" fill="#f5f5f5">Michael Wekesa</text>
-<text x="64" y="200" class="sans fade" style="animation-delay:.35s" font-size="30" font-weight="700" letter-spacing="-.5" fill="#f5f5f5">Software Engineer. <tspan fill="#FF4D00">Systems Built to Last.</tspan></text>
-<text x="64" y="236" class="mono fade" style="animation-delay:.6s" font-size="14" fill="#8a8a8a">$ full-stack products, from the data model to the app in people's hands<tspan class="caret" fill="#FF4D00"> ▍</tspan></text>
-
-<polyline class="trace" points="0,300.0 4,301.3 8,302.4 12,303.0 16,303.1 20,302.7 24,302.2 28,301.7 32,301.5 36,301.6 40,302.1 44,302.8 48,303.4 52,303.7 56,303.4 60,302.7 64,301.5 68,300.1 72,298.9 76,298.0 80,297.6 84,297.7 88,298.1 92,298.5 96,298.8 100,298.7 104,298.2 108,297.4 112,296.6 116,296.0 120,295.9 124,296.3 128,297.2 132,298.5 136,299.7 140,300.8 144,301.4 148,301.6 152,301.4 156,301.0 160,300.7 164,300.8 168,301.2 172,302.0 176,303.0 180,303.8 184,304.3 188,304.3 192,303.8 196,302.8 200,301.6 204,300.4 208,299.6 212,299.3 216,299.3 220,299.6 224,299.9 228,300.0 232,299.6 236,298.9 240,297.9 244,296.8 248,295.9 252,295.5 256,295.7 260,296.3 264,297.4 268,298.5 272,299.4 276,299.9 280,300.0 284,299.7 288,299.4 292,299.2 296,299.4 300,300.0 304,301.0 308,302.2 312,303.4 316,304.1 320,304.4 324,304.1 328,303.4 332,302.4 336,301.5 340,300.9 344,300.7 348,300.9 352,301.2 356,301.5 360,301.5 364,301.1 368,300.2 372,299.0 376,297.8 380,296.7 384,296.0 388,295.9 392,296.3 396,297.0 400,297.9 404,298.5 408,298.8 412,298.7 416,298.3 420,297.9 424,297.6 428,297.8 432,298.5 436,299.5 440,300.9 444,302.2 448,303.1 452,303.6 456,303.6 460,303.1 464,302.4 468,301.8 472,301.5 476,301.5 480,301.9 484,302.5 488,302.9 492,303.1 496,302.7 500,301.9 504,300.6 508,299.2 512,298.0 516,297.2 520,296.9 524,297.1 528,297.6 532,298.1 536,298.5 540,298.5 544,298.1 548,297.5 552,296.8 556,296.4 560,296.4 564,287.7 568,279.6 572,271.7 576,263.8 580,255.6 584,265.4 588,274.8 592,283.7 596,292.4 600,301.3 604,301.2 608,301.6 612,302.2 616,303.0 620,303.8 624,304.1 628,304.0 632,303.2 636,302.1 640,300.8 644,299.6 648,298.8 652,298.4 656,298.5 660,298.8 664,299.2 668,299.3 672,299.0 676,298.4 680,297.5 684,296.5 688,295.8 692,295.6 696,295.9 700,296.7 704,297.9 708,299.1 712,300.1 716,300.6 720,300.8 724,300.5 728,300.2 732,300.0 736,300.2 740,300.7 744,301.7 748,302.7 752,303.7 756,304.4 760,304.5 764,304.0 768,303.1 772,302.0 776,301.0 780,300.3 784,300.0 788,300.1 792,300.4 796,300.7 800,300.7 804,300.3 808,299.5 812,298.3 816,297.1 820,296.2 824,295.6 828,295.7 832,296.3 836,297.1 840,298.1 844,298.9 848,299.3 852,299.3 856,299.0 860,298.6 864,298.4 868,298.6 872,299.3 876,300.4 880,301.7 884,302.9 888,303.8 892,304.1 896,303.9 900,303.3 904,302.5 908,301.8 912,301.3 916,301.2 920,301.5 924,301.9 928,302.3 932,302.3 936,301.9 940,301.0 944,299.7 948,298.4 952,297.2 956,296.5 960,296.3 964,296.6 968,297.2 972,297.9 976,298.4 980,298.5 984,298.3 988,297.8 992,297.2 996,296.9 1000,297.1" fill="none" stroke="#FF4D00" stroke-width="1.6" stroke-opacity=".9"/>
-<text x="606" y="262" class="mono fade" style="animation-delay:2.4s" font-size="10" fill="#ff6a26">peak load · absorbed</text>
-<line x1="64" y1="318" x2="936" y2="318" stroke="#232323"/>
-<g class="fade" style="animation-delay:1.4s"><text x="64" y="346" class="sans" font-size="22" font-weight="700" fill="#f5f5f5">4+</text><text x="64" y="364" class="mono" font-size="10" letter-spacing="1.5" fill="#5c5c5c">YEARS IN PRODUCTION</text></g><g class="fade" style="animation-delay:1.5499999999999998s"><text x="274" y="346" class="sans" font-size="22" font-weight="700" fill="#f5f5f5">1,000+</text><text x="274" y="364" class="mono" font-size="10" letter-spacing="1.5" fill="#5c5c5c">DAILY USERS SERVED</text></g><g class="fade" style="animation-delay:1.7s"><text x="484" y="346" class="sans" font-size="22" font-weight="700" fill="#f5f5f5">p95 &lt;200ms</text><text x="484" y="364" class="mono" font-size="10" letter-spacing="1.5" fill="#5c5c5c">GLOBAL LATENCY</text></g>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-label="Michael Wekesa, software engineer">
+  <title>Michael Wekesa, software engineer</title>
+  <rect width="1000" height="180" rx="12" fill="#0d0d0d"/>
+  <rect x="56" y="62" width="22" height="22" rx="2" fill="#FF4D00"/>
+  <text x="96" y="84" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#f5f5f5">Michael Wekesa</text>
+  <text x="96" y="118" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#8a8a8a">software engineer, Kenya</text>
 </svg>
