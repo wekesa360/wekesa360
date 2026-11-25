@@ -56,10 +56,6 @@ PROJECTS = [
      ["react", "typescript"], "clarivue.duckdns.org"),
     ("elimisha", "Elimisha", "Donations and members, handled in-house.",
      ["react", "typescript", "vite"], "elimishacharity.org"),
-    ("cpims", "CPIMS", "Kenya's national child protection system.",
-     ["flutter", "dart", "django", "postgresql"], "national · 1,000+ daily users"),
-    ("pona", "Pona", "Private HD video consults for clinicians.",
-     ["typescript", "webrtc", "react", "laravel"], "health · realtime"),
 ]
 
 # title, short line, glyph
@@ -70,11 +66,16 @@ PRINCIPLES = [
     ("Own the outcome", "Does it help the user?", "target"),
 ]
 
+# slug, label (for alt text), colour (Simple Icons brand hex; dark ones lightened)
 STACK = [
-    ("react", "React"), ("typescript", "TypeScript"), ("flutter", "Flutter"), ("dart", "Dart"),
-    ("python", "Python"), ("django", "Django"), ("nodedotjs", "Node"), ("laravel", "Laravel"),
-    ("postgresql", "Postgres"), ("celery", "Celery"), ("hono", "Hono"), ("googlegemini", "Gemini"),
-    ("cloudflare", "Cloudflare"), ("amazonwebservices", "AWS"), ("docker", "Docker"), ("githubactions", "CI/CD"),
+    ("react", "React", "#61DAFB"), ("typescript", "TypeScript", "#3178C6"),
+    ("flutter", "Flutter", "#54C5F8"), ("dart", "Dart", "#0175C2"),
+    ("python", "Python", "#3776AB"), ("django", "Django", "#44B78B"),
+    ("nodedotjs", "Node", "#5FA04E"), ("laravel", "Laravel", "#FF2D20"),
+    ("postgresql", "Postgres", "#4169E1"), ("celery", "Celery", "#37814A"),
+    ("hono", "Hono", "#E36002"), ("googlegemini", "Gemini", "#8E75B2"),
+    ("cloudflare", "Cloudflare", "#F38020"), ("amazonwebservices", "AWS", "#FF9900"),
+    ("docker", "Docker", "#2496ED"), ("githubactions", "CI/CD", "#2088FF"),
 ]
 
 EXPERIENCE = [
@@ -187,66 +188,7 @@ def section(num, title):
     return svg(W, H, body, "", f"{num} {title}")
 
 
-def art_cpims(W, H):
-    """A field worker's phone with a case list, for projects without a screenshot."""
-    px, py, pw, ph = W / 2 - 70, 40, 140, 270
-    rows = "".join(
-        f'<rect x="{px + 16}" y="{py + 70 + i * 38}" width="{pw - 32}" height="28" rx="6" fill="{PANEL}" stroke="{LINE}"/>'
-        f'<circle cx="{px + 30}" cy="{py + 84 + i * 38}" r="5" fill="{ORANGE if i == 0 else DIM}"/>'
-        f'<rect x="{px + 42}" y="{py + 80 + i * 38}" width="{60 - i * 8}" height="4" rx="2" fill="{MUTED}"/>'
-        f'<rect x="{px + 42}" y="{py + 88 + i * 38}" width="{36 + i * 5}" height="3" rx="1.5" fill="{DIM}"/>'
-        for i in range(5)
-    )
-    side = "".join(
-        f'<rect x="{x}" y="{y}" width="72" height="46" rx="8" fill="{PANEL}" stroke="{LINE}"/>'
-        f'<rect x="{x + 10}" y="{y + 12}" width="{w}" height="5" rx="2.5" fill="{c}"/>'
-        f'<rect x="{x + 10}" y="{y + 26}" width="38" height="4" rx="2" fill="{DIM}"/>'
-        for x, y, w, c in [(56, 90, 44, ORANGE), (56, 170, 30, MUTED), (W - 128, 120, 50, MUTED), (W - 128, 200, 34, ORANGE)]
-    )
-    return f"""
-{grid_pattern("gc", 24)}<rect width="{W}" height="{H}" fill="url(#gc)"/>
-{side}
-<path d="M100 113 H{px}" stroke="{LINE}" stroke-dasharray="3 4"/><path d="M{px + pw} 143 H{W - 128}" stroke="{LINE}" stroke-dasharray="3 4"/>
-<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="22" fill="{BG}" stroke="#3a3a3a" stroke-width="2"/>
-<rect x="{px + pw / 2 - 18}" y="{py + 10}" width="36" height="6" rx="3" fill="#2a2a2a"/>
-<rect x="{px + 16}" y="{py + 32}" width="70" height="8" rx="4" fill="{WHITE}"/>
-<rect x="{px + 16}" y="{py + 46}" width="44" height="4" rx="2" fill="{ORANGE}"/>
-{rows}"""
-
-
-def art_pona(W, H):
-    """Two video tiles on a call, for projects without a screenshot."""
-    def person(cx, cy, c):
-        return (f'<circle cx="{cx}" cy="{cy - 22}" r="22" fill="{c}"/>'
-                f'<path d="M{cx - 44} {cy + 44} a44 40 0 0 1 88 0 z" fill="{c}"/>')
-    tw, th, y = 180, 150, 56
-    x1, x2 = W / 2 - tw - 10, W / 2 + 10
-    return f"""
-{grid_pattern("gp", 24)}<rect width="{W}" height="{H}" fill="url(#gp)"/>
-<clipPath id="t1"><rect x="{x1}" y="{y}" width="{tw}" height="{th}" rx="12"/></clipPath>
-<clipPath id="t2"><rect x="{x2}" y="{y}" width="{tw}" height="{th}" rx="12"/></clipPath>
-<rect x="{x1}" y="{y}" width="{tw}" height="{th}" rx="12" fill="{PANEL}" stroke="{LINE}"/>
-<g clip-path="url(#t1)">{person(x1 + tw / 2, y + 86, "#2a2a2a")}</g>
-<rect x="{x2}" y="{y}" width="{tw}" height="{th}" rx="12" fill="{PANEL}" stroke="{ORANGE}" stroke-width="1.5"/>
-<g clip-path="url(#t2)">{person(x2 + tw / 2, y + 86, "#3a2418")}</g>
-<rect x="{x1 + 10}" y="{y + 10}" width="38" height="16" rx="4" fill="{BG}"/><circle cx="{x1 + 20}" cy="{y + 18}" r="3" fill="{ORANGE}"/>
-<text x="{x1 + 27}" y="{y + 22}" class="mono" font-size="9" fill="{MUTED}">HD</text>
-<g transform="translate({W / 2 - 78} {y + th + 26})">
-  <rect width="156" height="40" rx="20" fill="{PANEL}" stroke="{LINE}"/>
-  <circle cx="34" cy="20" r="12" fill="#2a2a2a"/><circle cx="78" cy="20" r="12" fill="#2a2a2a"/>
-  <circle cx="122" cy="20" r="12" fill="{ORANGE}"/>
-  <path d="M116 20h12" stroke="{BG}" stroke-width="2.5" stroke-linecap="round"/>
-  <rect x="29" y="13" width="10" height="14" rx="5" fill="none" stroke="{ICON}" stroke-width="1.5"/>
-  <rect x="71" y="15" width="11" height="10" rx="2" fill="none" stroke="{ICON}" stroke-width="1.5"/><path d="M82 18l4-2v8l-4-2" fill="none" stroke="{ICON}" stroke-width="1.5"/>
-</g>"""
-
-
-ART = {"cpims": art_cpims, "pona": art_pona}
-
-
 def art(slug, W, H):
-    if slug in ART:
-        return ART[slug](W, H)
     return f'<image href="{screenshot(slug)}" width="{W}" height="{H}" preserveAspectRatio="xMidYMin slice"/>'
 
 
@@ -318,20 +260,20 @@ def project(slug, name, line, icons, foot):
 
 
 def stack():
-    cols, tw, th, gap = 8, 112, 104, 13
+    cols, size = 8, 40
     rows = math.ceil(len(STACK) / cols)
-    W, H = 1000, rows * th + (rows - 1) * gap
-    tiles = []
-    for i, (slug, label) in enumerate(STACK):
-        x = (i % cols) * (tw + gap) + 4
-        y = (i // cols) * (th + gap)
-        tiles.append(f"""
-<g class="fade" style="animation-delay:{.05 * i:.2f}s">
-<rect x="{x + .5}" y="{y + .5}" width="{tw - 1}" height="{th - 1}" rx="14" fill="{PANEL}" stroke="{LINE}"/>
-{icon(slug, x + tw / 2 - 16, y + 22, 32)}
-<text x="{x + tw / 2}" y="{y + 84}" text-anchor="middle" class="mono" font-size="11.5" fill="{MUTED}">{esc(label)}</text>
-</g>""")
-    return svg(W, H, "".join(tiles), "", "Stack: " + ", ".join(l for _, l in STACK))
+    W, pad, rh = 1000, 64, 76
+    H = rows * rh + 40
+    step = (W - 2 * pad - size) / (cols - 1)
+    logos = "".join(
+        icon(slug, pad + (i % cols) * step, 38 + (i // cols) * rh, size, colour)
+        for i, (slug, _, colour) in enumerate(STACK)
+    )
+    body = f"""
+<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="16" fill="{BG}" stroke="{LINE}"/>
+{logos}
+"""
+    return svg(W, H, body, "", "Stack: " + ", ".join(l for _, l, _ in STACK))
 
 
 def experience():

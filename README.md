@@ -17,11 +17,12 @@ Full-stack engineer in Kenya. I've worked on public-sector and health systems, i
     <td width="50%"><a href="https://clarivue.duckdns.org/"><img src="./assets/project-clarivue.svg" width="100%" alt="Clarivue" /></a></td>
     <td width="50%"><a href="https://elimishacharity.org"><img src="./assets/project-elimisha.svg" width="100%" alt="Elimisha" /></a></td>
   </tr>
-  <tr>
-    <td width="50%"><a href="https://portfolio-7ug.pages.dev/#projects"><img src="./assets/project-cpims.svg" width="100%" alt="CPIMS" /></a></td>
-    <td width="50%"><a href="https://portfolio-7ug.pages.dev/#projects"><img src="./assets/project-pona.svg" width="100%" alt="Pona" /></a></td>
-  </tr>
 </table>
+
+**Also worked on**
+
+- **CPIMS**: the Android app for Kenya's national child protection system, used by social workers in the field.
+- **Pona**: a WebRTC server for doctor–patient video calls, plus the React app around it.
 
 <img src="./assets/section-02.svg" width="100%" alt="02 How I work" />
 
